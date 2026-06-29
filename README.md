@@ -1,6 +1,9 @@
 # CNGT_FeSiB
 CNGT model used for mapping crystallization/devitrification and training surrogate models for further usage
 
+From paper;
+Machine-learning augmented prediction of multi-phase crystallization and devitrification from rapid heat treatments in the Fe-Si-B system
+
 These scripts are to be used as a three-step rocket.
 
 ***1)*** Evaluate your energies using TernaryGibbs.py, and once satisfied, play with dcTernaryAny.py until you get a sense for if things work as they should. After this, or alongside this, run instances for NucMulti_FeSiB_NoSolve.py, or IsoTherm_FeSiB.py, or AM_FeSiB.py.
