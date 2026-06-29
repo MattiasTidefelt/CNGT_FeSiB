@@ -3,7 +3,7 @@ CNGT model used for generating mapping and training surrogate models
 
 These scripts are to be used as a three-step rocket.
 
-***1)*** Evaluate your energies using TernaryGibbs.py, and once satisfied, play with dcTernaryAny.py until you get a sense for if things work as they should. After this, or alongside this, run instances for NucMulti_FeSiB_NoSolve.py, or IsoTherm_FeSiB.py, or Amxxx.
+***1)*** Evaluate your energies using TernaryGibbs.py, and once satisfied, play with dcTernaryAny.py until you get a sense for if things work as they should. After this, or alongside this, run instances for NucMulti_FeSiB_NoSolve.py, or IsoTherm_FeSiB.py, or AM_FeSiB.py.
 
 ***2)*** Sample compositions as functions of heating/cooling rates using SampleComp.py. Then adjust the MPI_Driver_NucFeSiB.py to the heat treatment that is to be mapped and set the number of threads to use during sampling in Run_MPI_FeSiB.sh. After this, plotting can be made using Plot_MPI_Sampling.py
 
