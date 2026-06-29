@@ -1,5 +1,5 @@
 # CNGT_FeSiB
-CNGT model used for generating mapping and training surrogate models
+CNGT model used for mapping crystallization/devitrification and training surrogate models for further usage
 
 These scripts are to be used as a three-step rocket.
 
