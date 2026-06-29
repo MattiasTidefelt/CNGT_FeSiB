@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mpiexec -n 6 python3 MPI_Driver_NucFeSiB.py
+
+python3 Plot_MPI_Sampling.py
