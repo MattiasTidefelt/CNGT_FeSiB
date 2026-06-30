@@ -16,4 +16,6 @@ All parameters are found in paramFeSiB.py, but the heat treatment should be keep
 
 If these models are to be used for another system, what should be needed to change are LiqFeSiB.py, SolidFeSiB.py, SolidSolFeSiB.py, and the corresponding *_dT.py scripts, along with the paramFeSiB.py script.
 
+These scripts use standard libraries, but also machine learning libraries such as Optuna and pytorch, most plotting is done using mpltern (great for ternary diagrams), and the parallelization is carried out with MPI4py.
+
 ***Following the functions from the above core scripts explains how they're connected***
