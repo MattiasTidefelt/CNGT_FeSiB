@@ -14,4 +14,6 @@ These scripts are to be used as a three-step rocket.
 
 All parameters are found in paramFeSiB.py, but the heat treatment should be keept track of in the above mentioned scripts.
 
+If these models are to be used for another system, what should be needed to change are LiqFeSiB.py, SolidFeSiB.py, SolidSolFeSiB.py, and the corresponding *_dT.py scripts, along with the paramFeSiB.py script.
+
 ***Following the functions from the above core scripts explains how they're connected***
